@@ -67,7 +67,7 @@ class   Director
 private:
     Builder *   m_pBuilder;
 public:
-    Director(Builder * pBuilder = nullptr) : m_pBuilder(m_pBuilder){}
+    Director(Builder * pBuilder = NULL) : m_pBuilder(pBuilder){}
     void    setBuilder(Builder * pBuilder)
     {
         //if (m_pBuilder != nullptr)
